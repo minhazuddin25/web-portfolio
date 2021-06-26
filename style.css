@@ -130,3 +130,12 @@ hr{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
+
+.service-area p{
+    font-size: 18px;
+    font-family: tahoma;
+    font-weight: normal;
+    text-align: justify;
+    padding: 0 30px;
+}
