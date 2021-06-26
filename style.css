@@ -1,6 +1,9 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
 }
 
 
@@ -10,8 +13,120 @@ body{
     margin-left: 5%;
     padding-left: 2%;
 }
+.service-item{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    overflow: hidden;
+}
 .haf-width img{
     width: 100%;
   
 }
+.haf-width h1{
+   font-size: 40px;
+   padding: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+  
+}
 
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+.link-bution{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: orange;
+    color: #ffffff;
+    padding: 8px 18px;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+
+.link-bution:hover{
+    
+    background-color: rgb(255, 123, 0);
+    color: #ffffff;
+    padding: 8px 20px;
+    border-radius: 15px;
+    border: 1px solid #000;
+}
+.orange-heiglight{
+    color: orange;
+   
+}
+
+.dram-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+hr{
+    width: 30%;
+    position: left: 0;;
+}
+
+.experience-text{
+    font-size: 40px;
+    color: #5C5DDD;
+    font-weight: bold;
+    font-family: verdana;
+    text-align: center;
+}
+.expereance-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+.ex-box-shadow{
+    color: #fff;
+    background-color: #34495e;
+    padding: 20px;
+    border-left: 10px solid orange;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 0 15px 15px ;
+    margin-top: 50px;
+}
+
+
+.footer-area {
+    background-color: #6687a8;
+    padding: 10px;
+    overflow: hidden;
+}
+.footer-area p{
+    text-align: center;
+    color: #ffffff;
+}
+
+.service-area{
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.service-area img{
+    width: 100%;
+
+}
+.service-area h1{
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
